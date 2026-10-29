@@ -1,0 +1,23 @@
+{
+  "name": "prism-bots-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One web dashboard for every Prism Protocol Discord bot: invite, Premium, server settings.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-bots-panel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krishyaa06/prism-bots-panel/issues"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-bots-panel/",
+  "engines": {
+    "node": ">=18"
+  }
+}

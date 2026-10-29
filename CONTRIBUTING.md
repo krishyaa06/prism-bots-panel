@@ -1,14 +1,21 @@
 # Contributing to prism-bots-panel
 
-Thanks for taking the time to contribute! prism-bots-panel is an in-browser tool by [Prism Protocol](https://github.com/krishyaa06).
+Thanks for taking the time to contribute! prism-bots-panel is an in-browser tool by [Prism Protocol](https://github.com/krishyaa06) — One web dashboard for every Prism Protocol Discord bot: invite, Premium, server settings.
 
 ## Getting started
 
 ```bash
 git clone https://github.com/krishyaa06/prism-bots-panel.git
 cd prism-bots-panel
-# no build step — open index.html in a browser, or serve the folder:
-npx --yes serve .
+npm start
+```
+
+## Before you open a pull request
+
+Make sure everything passes locally:
+
+```bash
+npm test
 ```
 
 ## Guidelines
